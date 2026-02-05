@@ -1,0 +1,163 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
+  <diagram name="Page-1" id="J8uOEvG4T4IKOCvGVgv5">
+    <mxGraphModel dx="5124" dy="2248" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-32" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="&#xa;&#xa;&#xa;&#xa;Notification Layer" vertex="1">
+          <mxGeometry height="155" width="547" x="1389" y="2221" as="geometry" />
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-33" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="            Bank Integration Layer" vertex="1">
+          <mxGeometry height="228" width="547" x="1389" y="2395" as="geometry" />
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-34" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="                                Payment Processing Layer" vertex="1">
+          <mxGeometry height="339" width="523" x="816" y="2221" as="geometry" />
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-35" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Customer" vertex="1">
+          <mxGeometry height="54" width="128" x="210" y="2379" as="geometry" />
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-36" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="MobileApp" vertex="1">
+          <mxGeometry height="54" width="134" x="388" y="2379" as="geometry" />
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-37" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="PaymentController" vertex="1">
+          <mxGeometry height="54" width="194" x="572" y="2379" as="geometry" />
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-38" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="PaymentProcessor(Interface)" vertex="1">
+          <mxGeometry height="54" width="211" x="841" y="2379" as="geometry" />
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-39" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="UPIPaymentProcessor" vertex="1">
+          <mxGeometry height="54" width="213" x="1102" y="2316" as="geometry" />
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-40" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="QRPaymentProcessor" vertex="1">
+          <mxGeometry height="54" width="209" x="1103" y="2431" as="geometry" />
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-41" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="BankGateway(Interface)" vertex="1">
+          <mxGeometry height="54" width="178" x="1434" y="2482" as="geometry" />
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-42" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="SBIBankGateway" vertex="1">
+          <mxGeometry height="54" width="178" x="1708" y="2430" as="geometry" />
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-43" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="ICICIBankGateway" vertex="1">
+          <mxGeometry height="54" width="189" x="1702" y="2534" as="geometry" />
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-44" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="NPCI" vertex="1">
+          <mxGeometry height="54" width="93" x="1987" y="2482" as="geometry" />
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-45" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Banks" vertex="1">
+          <mxGeometry height="54" width="101" x="2130" y="2482" as="geometry" />
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-46" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="NotificationService(Interface)" vertex="1">
+          <mxGeometry height="54" width="218" x="1414" y="2255" as="geometry" />
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-47" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="PushNotificationService" vertex="1">
+          <mxGeometry height="54" width="229" x="1682" y="2255" as="geometry" />
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-48" edge="1" parent="1" source="Zk0pjmcYZGq85_lyThS4-35" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=12;startSize=8;endSize=8;" target="Zk0pjmcYZGq85_lyThS4-36" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-49" edge="1" parent="1" source="Zk0pjmcYZGq85_lyThS4-36" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=12;startSize=8;endSize=8;" target="Zk0pjmcYZGq85_lyThS4-37" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-50" edge="1" parent="1" source="Zk0pjmcYZGq85_lyThS4-37" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=12;startSize=8;endSize=8;" target="Zk0pjmcYZGq85_lyThS4-38" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-51" edge="1" parent="1" source="Zk0pjmcYZGq85_lyThS4-38" style="curved=1;startArrow=none;endArrow=block;exitX=0.76;exitY=0;entryX=0;entryY=0.5;rounded=0;fontSize=12;startSize=8;endSize=8;" target="Zk0pjmcYZGq85_lyThS4-39" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1077" y="2343" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-52" edge="1" parent="1" source="Zk0pjmcYZGq85_lyThS4-38" style="curved=1;startArrow=none;endArrow=block;exitX=0.82;exitY=1;entryX=0;entryY=0.5;rounded=0;fontSize=12;startSize=8;endSize=8;" target="Zk0pjmcYZGq85_lyThS4-40" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1077" y="2458" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-53" edge="1" parent="1" source="Zk0pjmcYZGq85_lyThS4-39" style="curved=1;startArrow=none;endArrow=block;exitX=0.66;exitY=1;entryX=0.18;entryY=0;rounded=0;fontSize=12;startSize=8;endSize=8;" target="Zk0pjmcYZGq85_lyThS4-41" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1339" y="2446" />
+              <mxPoint x="1389" y="2446" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-54" edge="1" parent="1" source="Zk0pjmcYZGq85_lyThS4-40" style="curved=1;startArrow=none;endArrow=block;exitX=0.78;exitY=1;entryX=0;entryY=0.62;rounded=0;fontSize=12;startSize=8;endSize=8;" target="Zk0pjmcYZGq85_lyThS4-41" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1339" y="2519" />
+              <mxPoint x="1389" y="2519" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-55" edge="1" parent="1" source="Zk0pjmcYZGq85_lyThS4-41" style="curved=1;startArrow=none;endArrow=block;exitX=0.89;exitY=0;entryX=0;entryY=0.5;rounded=0;fontSize=12;startSize=8;endSize=8;" target="Zk0pjmcYZGq85_lyThS4-42" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1657" y="2457" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-56" edge="1" parent="1" source="Zk0pjmcYZGq85_lyThS4-41" style="curved=1;startArrow=none;endArrow=block;exitX=0.89;exitY=1;entryX=0;entryY=0.5;rounded=0;fontSize=12;startSize=8;endSize=8;" target="Zk0pjmcYZGq85_lyThS4-43" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1657" y="2561" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-57" edge="1" parent="1" source="Zk0pjmcYZGq85_lyThS4-42" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.1;entryY=0;rounded=0;fontSize=12;startSize=8;endSize=8;" target="Zk0pjmcYZGq85_lyThS4-44" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1962" y="2457" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-58" edge="1" parent="1" source="Zk0pjmcYZGq85_lyThS4-44" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=12;startSize=8;endSize=8;" target="Zk0pjmcYZGq85_lyThS4-45" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-59" edge="1" parent="1" source="Zk0pjmcYZGq85_lyThS4-43" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.1;entryY=1;rounded=0;fontSize=12;startSize=8;endSize=8;" target="Zk0pjmcYZGq85_lyThS4-44" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1962" y="2561" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-60" edge="1" parent="1" source="Zk0pjmcYZGq85_lyThS4-39" style="curved=1;startArrow=none;endArrow=block;exitX=0.73;exitY=0;entryX=0;entryY=0.35;rounded=0;fontSize=12;startSize=8;endSize=8;" target="Zk0pjmcYZGq85_lyThS4-46" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1339" y="2272" />
+              <mxPoint x="1389" y="2272" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-61" edge="1" parent="1" source="Zk0pjmcYZGq85_lyThS4-40" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=0;entryX=0.18;entryY=1;rounded=0;fontSize=12;startSize=8;endSize=8;" target="Zk0pjmcYZGq85_lyThS4-46" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1339" y="2334" />
+              <mxPoint x="1389" y="2334" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-62" edge="1" parent="1" source="Zk0pjmcYZGq85_lyThS4-46" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=12;startSize=8;endSize=8;" target="Zk0pjmcYZGq85_lyThS4-47" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-65" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=31;" value="&lt;h2 data-start=&quot;188&quot; data-end=&quot;285&quot;&gt;&lt;strong data-start=&quot;191&quot; data-end=&quot;285&quot;&gt;Design an HLD for a Payment Processing System, showing where interfaces would be used.&lt;/strong&gt;&lt;/h2&gt;&lt;h3 data-start=&quot;287&quot; data-end=&quot;304&quot;&gt;&lt;strong data-start=&quot;291&quot; data-end=&quot;304&quot;&gt;Solution:&lt;/strong&gt;&lt;/h3&gt;&lt;p data-start=&quot;306&quot; data-end=&quot;597&quot;&gt;The Payment Processing System is designed using a layered architecture that includes the Presentation Layer, Processing Layer, Bank Integration Layer, and Notification Layer. Each layer is responsible for performing a specific function in the system, which improves clarity and organization.&lt;/p&gt;&lt;p data-start=&quot;599&quot; data-end=&quot;1070&quot;&gt;In this system, the customer starts the payment using a mobile application. The application sends the payment request to the Payment Controller. Instead of directly interacting with specific payment methods, the controller communicates with a PaymentProcessor interface. This interface is implemented by classes such as UPIPaymentProcessor and QRPaymentProcessor. Due to this design, new payment methods can be added easily without changing the existing controller logic.&lt;/p&gt;&lt;p data-start=&quot;1072&quot; data-end=&quot;1423&quot;&gt;For bank-related communication, a BankGateway interface is used. Different banks, such as SBIBankGateway and ICICIBankGateway, implement this interface. This allows the system to connect with multiple banks in a uniform manner. All transactions are routed through NPCI before reaching the respective banks, ensuring secure and standardized processing.&lt;/p&gt;&lt;p data-start=&quot;1425&quot; data-end=&quot;1703&quot;&gt;The notification mechanism is also designed using interfaces. A NotificationService interface is created and implemented by PushNotificationService. This approach makes it easy to add new notification methods like Email or SMS in the future without affecting the current system.&lt;/p&gt;&lt;p data-start=&quot;1705&quot; data-end=&quot;1768&quot;&gt;This architecture follows important software design principles:&lt;/p&gt;&lt;ul data-start=&quot;1770&quot; data-end=&quot;2206&quot;&gt;&lt;li data-start=&quot;1770&quot; data-end=&quot;1902&quot;&gt;&lt;p data-start=&quot;1772&quot; data-end=&quot;1902&quot;&gt;&lt;strong data-start=&quot;1772&quot; data-end=&quot;1791&quot;&gt;Loose Coupling:&lt;/strong&gt; All components interact through interfaces instead of depending on specific classes, which reduces dependency.&lt;/p&gt;&lt;/li&gt;&lt;li data-start=&quot;1903&quot; data-end=&quot;2049&quot;&gt;&lt;p data-start=&quot;1905&quot; data-end=&quot;2049&quot;&gt;&lt;strong data-start=&quot;1905&quot; data-end=&quot;1941&quot;&gt;Single Responsibility Principle:&lt;/strong&gt; Each layer focuses on a single task, such as processing payments, handling banks, or sending notifications.&lt;/p&gt;&lt;/li&gt;&lt;li data-start=&quot;2050&quot; data-end=&quot;2206&quot;&gt;&lt;p data-start=&quot;2052&quot; data-end=&quot;2206&quot;&gt;&lt;strong data-start=&quot;2052&quot; data-end=&quot;2078&quot;&gt;Open-Closed Principle:&lt;/strong&gt; The system allows the addition of new payment methods, bank services, or notification channels without modifying existing code.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p data-start=&quot;2208&quot; data-end=&quot;2449&quot;&gt;As a result, the Payment Processing System becomes flexible, reliable, and easy to maintain. The use of interfaces ensures that the system remains scalable and adaptable to future requirements, making it suitable for real-world applications.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="1130" width="2460" x="30" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="Zk0pjmcYZGq85_lyThS4-66" parent="1" style="whiteSpace=wrap;html=1;fontSize=82;fontStyle=5" value="HLD" vertex="1">
+          <mxGeometry height="110" width="230" x="1082" y="1860" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
